@@ -1,19 +1,18 @@
-# Lab 10
-## JavaFX Event Handling
+# JavaFX Event Handling
 
-This is the tenth lab for COMP 167, Computer Program Design at North Carolina A&T State University.
+This is a JavaFX lab for COMP 167, Computer Program Design at North Carolina A&T State University.
 
 Instructor: Dr. Kelvin Bryant ksbryant@ncat.edu
 
 ### Lab Description
 
-In this lab exercise, you will create a simple JavaFX calculator. The GUI will have a panel of graphic buttons (filled ovals) with string labels. When pressed, the graphic button background will change color indicating the button is currently pressed. When the mouse is released, the background will return to its original color. Also, the string value in the button will be concatenated to the TextField at the top of the GUI. There will be additional command Buttons at the bottom of the GUI with functionality described below.
+In this lab exercise, you will create a simple JavaFX calculator. The GUI will have a panel of graphic buttons (filled circles) with string labels. When pressed, the graphic button background will change color indicating the button is currently pressed. When the mouse is released, the background will return to its original color. Also, the string value in the button will be concatenated to the TextField at the top of the GUI. There will be additional command Buttons at the bottom of the GUI with functionality described below.
 
 ![Calculator App Layout](https://github.com/NCATCS/images/blob/master/Figure10-01.png)
 
 #### CircleButton Class
 
-The graphic circular buttons are created by drawing a filled circle on a StackPane. So, the pictured GUI uses 9 different StackPanes for displaying the 9 graphic buttons. Of course, these CircleButton objects can then be placed on a single GridPane to achieve the 3x3 layout (see SimpleCalc class below). Create a class named CircleButton that extends the StackPane class. The class should have a Label property and a Circle property. By default, the background of the circle should be white and the text black. The no-arg constructor sets the colors to their defaults and the text to the empty string “”. A second constructor should have a String parameter to initialize the Label property. Set the preferred size of the CircleButton pane to 100 but the radius of the circle to 90 pixels. Put this class in a separate file.
+The graphic circular buttons are created by drawing a filled Circle on a StackPane. So, the pictured GUI uses 9 different StackPanes for displaying the 9 graphic buttons. Of course, these CircleButton objects can then be placed on a single GridPane to achieve the 3x3 layout (see SimpleCalc class below). Create a class named CircleButton that extends the StackPane class. The class should have a Label property and a Circle property. By default, the background of the circle should be white and the text black. The no-arg constructor sets the colors to their defaults and the text to the empty string “”. A second constructor should have a String parameter to initialize the Label property. Set the preferred size of the CircleButton pane to 100 but the radius of the circle to 90 pixels. Put this class in a separate file.
 
 ![CircleButton UML Diagram](https://github.com/NCATCS/images/blob/master/Figure10-02.png)
 
