@@ -18,7 +18,7 @@ The graphic circular buttons are created by drawing a filled Circle on a StackPa
 
 #### SimpleCalc Class (extends Application)
 
-This is your main project class that contains your start() method. This class will create a BorderPane with a TextField at the top, a GridPane of 9 CircleButtons in the center and an HBox of three JButtons at the bottom. When adding the CircleButtons, you should use nested for-loops to facilitate the instantiation of the CircleButtons with the correct text label (1..9 or 0..8) and the registration of a single Listener for all nine CircleButtons.
+This is your main project class that contains your start() method. This class will create a BorderPane with a TextField at the top, a GridPane of 9 CircleButtons in the center and an HBox of three Buttons at the bottom. When adding the CircleButtons, you should use nested for-loops to facilitate the instantiation of the CircleButtons with the correct text label (1..9 or 0..8) and the registration of a single Listener for all nine CircleButtons.
 
 #### Mouse Events
 
